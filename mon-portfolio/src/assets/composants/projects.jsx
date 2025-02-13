@@ -1,4 +1,5 @@
-import imageProjectOhmyfood from "../Img/image_projet_ohmyfood_1.jpg";
+import ProjectCard from "../layout/projectCard";
+import Modal from "../layout/modal";
 
 function Projects() {
   return (
@@ -6,7 +7,10 @@ function Projects() {
       <section className="projects">
         <h2 id="projets">Mes projets</h2>
         <div className="projects_container">
-          <img className="img_projects" src={imageProjectOhmyfood} />
+          <ProjectCard title="Projet Ohmyfood" />
+          <ProjectCard title="Projet Portfolio Sophie Bluel" />
+          <ProjectCard title="Projet Kasa" />
+          <ProjectCard title="Projet ArgentBank" />
         </div>
       </section>
     </>
