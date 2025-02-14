@@ -1,7 +1,8 @@
-function Modal({ onSuccess }) {
-  if (typeof onSuccess !== "function") {
-    console.error("La prop onSuccess n'est pas une fonction !");
-  }
+import Projects from "../../../projects.json";
+
+function Modal({ onSuccess, id }) {
+  const project = Projects.find((project) => project.id === id);
+  console.log(id);
   return (
     <>
       <div className="modal">
@@ -10,6 +11,7 @@ function Modal({ onSuccess }) {
             &#xf00d;
           </i>
         </div>
+        <p>{project.title} </p>
       </div>
     </>
   );
