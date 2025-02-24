@@ -1,8 +1,39 @@
+import { useState } from "react";
 import Projects from "../../../projects.json";
 
 function Modal({ onSuccess, id }) {
   const project = Projects.find((project) => project.id === id);
   console.log(id);
+
+  const skillsList = project.skills.map((skills) => (
+    <li key={skills}>{skills} </li>
+  ));
+
+  const presentationList = project.content.map((content) => (
+    <li key={content}>{content} </li>
+  ));
+
+  const [modalContent, setModalContent] = useState(
+    <div>
+      <p className="modal_presentation">{project.description}</p>
+      <ul className="modal_content">{presentationList} </ul>
+    </div>
+  );
+
+  const handleClick = (e) => {
+    let buttonName = e.target.dataset.name;
+    if (buttonName === "presentation") {
+      setModalContent(
+        <div>
+          <p className="modal_presentation">{project.description}</p>
+          <ul className="modal_content">{presentationList} </ul>
+        </div>
+      );
+    } else
+      setModalContent(
+        <ul className=" modal_content modal_skills">{skillsList}</ul>
+      );
+  };
   return (
     <>
       <div className="modal">
@@ -11,7 +42,27 @@ function Modal({ onSuccess, id }) {
             &#xf00d;
           </i>
         </div>
-        <p>{project.title} </p>
+        <h2 className="project_card-title">{project.title} </h2>
+        <div className="modal_image-container">
+          <img className="modal_image" src={project.cover} />
+        </div>
+        <div className="modal_buttons-container">
+          <button
+            data-name="presentation"
+            className="modal_button modal_button-line"
+            onClick={handleClick}
+          >
+            Présentation
+          </button>
+          <button
+            data-name="skills"
+            className="modal_button"
+            onClick={handleClick}
+          >
+            Compétences acquises
+          </button>
+        </div>
+        {modalContent}
       </div>
     </>
   );

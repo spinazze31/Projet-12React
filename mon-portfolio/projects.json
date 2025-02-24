@@ -2,20 +2,69 @@
   {
     "id": "0",
     "title": "Projet Ohmyfood",
-    "cover": "../Img/image_projet_ohmyfood_1.jpg",
-    "description": ""
+    "cover": "src/assets/Img/ohmyfood/image_projet_ohmyfood_1.jpg",
+    "pictures": [
+      "src/assets/Img/ohmyfood/image_projet_ohmyfood_1.jpg",
+      "src/assets/Img/ohmyfood/image_projet_ohmyfood_2.jpg",
+      "src/assets/Img/ohmyfood/image_projet_ohmyfood_3.jpg",
+      "src/assets/Img/ohmyfood/image_projet_ohmyfood_4.jpg"
+    ],
+    "description": "Ce projet a pour but de développer un site \"mobile first\" qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Ce site contient : ",
+    "content": ["la page d'accueil", "les quatre pages de menu"],
+    "skills": [
+      "mise en place du responsive en mode \"mobile first\"",
+      "utilisation de SASS",
+      "création d'effets au survol des boutons",
+      "création d'une animation de \"loading\"",
+      "création d'une animation avec un délai d'affichage sur les menus",
+      "création d'une animation de remplissage (coeur)",
+      "création d'une animation \"checkbox\" au survol sur les menus pour le choix du plat"
+    ]
   },
   {
     "id": "1",
     "title": "Projet Portfolio Sophie Bluel",
-    "cover": "",
-    "description": ""
+    "cover": "src/assets/Img/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_1.jpg",
+    "pictures": [
+      "src/assets/Img/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_1.jpg",
+      "src/assets/Img/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_2.jpg",
+      "src/assets/Img/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_3.jpg",
+      "src/assets/Img/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_4.jpg"
+    ],
+    "description": "Ce projet à pour but de créer un site portfolio d'une architecte d'intérieur. Pour cela, le site doit comporter deux modes : un mode utilisateur déconnecté qui permet l'affichage de toutes les photos ou le filtrage des photos selon le type \"objet\", \"appartement\", \"hôtel & restaurant\" ainsi que l'accès à la page de connexion et un mode utilisateur connecté qui permet l'ouverture d'une modale pour l'ajout ou la suppression de photos. Ce site contient : ",
+    "content": [
+      "la page d'accueil",
+      "la page de connexion",
+      "la modale d'ajout ou de suppression"
+    ],
+    "skills": [
+      "modification des éléments du DOM avec Javascript",
+      "communication avec une API pour la récupération, l'ajout ou la suppression de photos, grâce à la fonction \"fetch\"",
+      "filtrage des photos",
+      "récupération des données entrées dans le formulaire par l'utilisateur",
+      "aperçu de la photo avant ajout"
+    ]
   },
   {
     "id": "2",
     "title": "Projet Kasa",
-    "cover": "",
-    "description": ""
+    "cover": "src/assets/Img/kasa/image_projet_kasa_1.jpg",
+    "pictures": [
+      "src/assets/Img/kasa/image_projet_kasa_1.jpg",
+      "src/assets/Img/kasa/image_projet_kasa_2.jpg",
+      "src/assets/Img/kasa/image_projet_kasa_3.jpg",
+      "src/assets/Img/kasa/image_projet_kasa_4.jpg",
+      "src/assets/Img/kasa/image_projet_kasa_5.jpg",
+      "src/assets/Img/kasa/image_projet_kasa_6.jpg"
+    ],
+    "description": "",
+    "content": [
+      "la page d'accueil",
+      "une page spécifique à chaque annonce",
+      "une page \"à propos\"",
+      "une page de gestion d'erreur"
+    ],
+    "skills": []
   },
   {
     "id": "3",
