@@ -17,6 +17,7 @@ function ProjectCard() {
     <button
       key={project.id}
       type="button"
+      data-id={project.id}
       id={project.id}
       onClick={(e) => {
         setIsOpen(false);

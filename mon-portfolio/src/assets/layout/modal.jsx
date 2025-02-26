@@ -20,8 +20,11 @@ function Modal({ onSuccess, id }) {
     </div>
   );
 
+  const [activeButton, setActiveButton] = useState("presentation");
+
   const handleClick = (e) => {
     let buttonName = e.target.dataset.name;
+    setActiveButton(buttonName);
     if (buttonName === "presentation") {
       setModalContent(
         <div>
@@ -44,19 +47,31 @@ function Modal({ onSuccess, id }) {
         </div>
         <h2 className="project_card-title">{project.title} </h2>
         <div className="modal_image-container">
-          <img className="modal_image" src={project.cover} />
+          <img
+            className="modal_image"
+            src={project.cover}
+            alt="image du projet"
+          />
         </div>
         <div className="modal_buttons-container">
           <button
             data-name="presentation"
-            className="modal_button modal_button-line"
+            className={
+              activeButton === "presentation"
+                ? "modal_button modal_button-selected"
+                : "modal_button"
+            }
             onClick={handleClick}
           >
             Présentation
           </button>
           <button
             data-name="skills"
-            className="modal_button"
+            className={
+              activeButton === "skills"
+                ? "modal_button modal_button-selected"
+                : "modal_button"
+            }
             onClick={handleClick}
           >
             Compétences acquises

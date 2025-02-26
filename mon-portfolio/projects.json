@@ -12,13 +12,13 @@
     "description": "Ce projet a pour but de développer un site \"mobile first\" qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Ce site contient : ",
     "content": ["la page d'accueil", "les quatre pages de menu"],
     "skills": [
-      "mise en place du responsive en mode \"mobile first\"",
-      "utilisation de SASS",
-      "création d'effets au survol des boutons",
-      "création d'une animation de \"loading\"",
-      "création d'une animation avec un délai d'affichage sur les menus",
-      "création d'une animation de remplissage (coeur)",
-      "création d'une animation \"checkbox\" au survol sur les menus pour le choix du plat"
+      "mise en place du responsive en mode \"mobile first\".",
+      "utilisation de SASS.",
+      "création d'effets au survol des boutons.",
+      "création d'une animation de \"loading\".",
+      "création d'une animation avec un délai d'affichage sur les menus.",
+      "création d'une animation de remplissage (coeur).",
+      "création d'une animation \"checkbox\" au survol sur les menus pour le choix du plat."
     ]
   },
   {
@@ -38,11 +38,11 @@
       "la modale d'ajout ou de suppression"
     ],
     "skills": [
-      "modification des éléments du DOM avec Javascript",
-      "communication avec une API pour la récupération, l'ajout ou la suppression de photos, grâce à la fonction \"fetch\"",
-      "filtrage des photos",
-      "récupération des données entrées dans le formulaire par l'utilisateur",
-      "aperçu de la photo avant ajout"
+      "modification des éléments du DOM avec Javascript.",
+      "communication avec une API pour la récupération, l'ajout ou la suppression de photos, grâce à la fonction \"fetch\".",
+      "filtrage des photos.",
+      "récupération des données entrées dans le formulaire par l'utilisateur.",
+      "aperçu de la photo avant ajout."
     ]
   },
   {
@@ -57,19 +57,42 @@
       "src/assets/Img/kasa/image_projet_kasa_5.jpg",
       "src/assets/Img/kasa/image_projet_kasa_6.jpg"
     ],
-    "description": "",
+    "description": "Ce projet a pour but de créer un site de location d'appartement entre particulier. Pour cela le site doit permettre à l'utilisateur d'accéder à toute les annonces présentent et de consulter plus en détail celles qui l'intéressent grâce à la création d'une page spécifique à chaque annonce. La page spécifique donne elle les informations nécéssaire au futur locataire à savoir la localisation, la description des équipements présent ainsi qu'une note laissée par des précédents locataires. Ce site contient :",
     "content": [
       "la page d'accueil",
       "une page spécifique à chaque annonce",
-      "une page \"à propos\"",
+      "une page \"à propos\" qui présente l'entreprise",
       "une page de gestion d'erreur"
     ],
-    "skills": []
+    "skills": [
+      "utilisation de react router pour la mise en place des routes de chaque page.",
+      "utilisation de react pour la création et la réutilisatiion de composants.",
+      "utilisation de \"hook\" pour la gestion d'état local, la gestion des effets secondaires, la récupération de l'id dans la barre d'adresse...",
+      "utilisation des méthodes \"map\", \"find\".",
+      "utilisation de conditions."
+    ]
   },
   {
     "id": "3",
     "title": "Projet ArgentBank",
-    "cover": "",
-    "description": ""
+    "cover": "src/assets/Img/argentbank/image_projet_argentbank_1.jpg",
+    "pictures": [
+      "src/assets/Img/argentbank/image_projet_argentbank_1.jpg",
+      "src/assets/Img/argentbank/image_projet_argentbank_2.jpg",
+      "src/assets/Img/argentbank/image_projet_argentbank_3.jpg",
+      "src/assets/Img/argentbank/image_projet_argentbank_4.jpg"
+    ],
+    "description": "Ce projet a pour but de créer le site d'une nouvelle banque en ligne qui souhaite percer dans le secteur bancaire. Le site doit permettre à l'utilisateur de se connecter, d'avoir accès aux données de son profil et de modifier le \"username\". Ce site contient :",
+    "content": [
+      "la page d'accueil",
+      "la page de connexion",
+      "la page d'utilisateur connecté"
+    ],
+    "skills": [
+      "appel à une API pour la connexion, la récupération du profil de l'utilisateur et la modification du \"username\".",
+      "utilisation de \"createAsyncThunk\" pour gérer l'appel asynchrone à l'API pour la mise en place du store Redux Toolkit.",
+      "création de reducers et d'extraReducer.",
+      "création d'actions qui permettent d'interagir avec l'utilisateur."
+    ]
   }
 ]
