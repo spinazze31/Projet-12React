@@ -2,12 +2,28 @@
   {
     "id": "0",
     "title": "Projet Ohmyfood",
-    "cover": "src/assets/Img/ohmyfood/image_projet_ohmyfood_1.jpg",
+    "cover": "src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_1.jpg",
     "pictures": [
-      "src/assets/Img/ohmyfood/image_projet_ohmyfood_1.jpg",
-      "src/assets/Img/ohmyfood/image_projet_ohmyfood_2.jpg",
-      "src/assets/Img/ohmyfood/image_projet_ohmyfood_3.jpg",
-      "src/assets/Img/ohmyfood/image_projet_ohmyfood_4.jpg"
+      {
+        "src": "src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_1.jpg",
+        "srcset": "src/assets/Img/img_200w/ohmyfood/image_projet_ohmyfood_1.jpg 200w, src/assets/Img/img_400w/ohmyfood/image_projet_ohmyfood_1.jpg 400w, src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_1.jpg 600w",
+        "sizes": "(max_width: 600px) 100vw"
+      },
+      {
+        "src": "src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_2.jpg",
+        "srcset": "src/assets/Img/img_200w/ohmyfood/image_projet_ohmyfood_2.jpg 200w, src/assets/Img/img_400w/ohmyfood/image_projet_ohmyfood_2.jpg 400w, src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_2.jpg 600w",
+        "sizes": "(max_width: 600px) 100vw"
+      },
+      {
+        "src": "src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_3.jpg",
+        "srcset": "src/assets/Img/img_200w/ohmyfood/image_projet_ohmyfood_3.jpg 200w, src/assets/Img/img_400w/ohmyfood/image_projet_ohmyfood_3.jpg 400w, src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_3.jpg 600w",
+        "sizes": "(max_width: 600px) 100vw"
+      },
+      {
+        "src": "src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_4.jpg",
+        "srcset": "src/assets/Img/img_200w/ohmyfood/image_projet_ohmyfood_4.jpg 200w, src/assets/Img/img_400w/ohmyfood/image_projet_ohmyfood_4.jpg 400w, src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_4.jpg 600w",
+        "sizes": "(max_width: 600px) 100vw"
+      }
     ],
     "description": "Ce projet a pour but de développer un site \"mobile first\" qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Ce site contient : ",
     "content": ["la page d'accueil", "les quatre pages de menu"],
