@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Projects from "../../../projects.json";
+import Carousel from "../composants/carousel";
 
 function Modal({ onSuccess, id }) {
   const project = Projects.find((project) => project.id === id);
@@ -47,11 +48,7 @@ function Modal({ onSuccess, id }) {
         </div>
         <h2 className="project_card-title">{project.title} </h2>
         <div className="modal_image-container">
-          <img
-            className="modal_image"
-            src={project.cover}
-            alt="image du projet"
-          />
+          <Carousel pictures={project.pictures} />
         </div>
         <div className="modal_buttons-container">
           <button
