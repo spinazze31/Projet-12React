@@ -23,18 +23,20 @@ function Carousel({ pictures }) {
 
   return (
     <>
-      <img
-        className="modal_image"
-        src={imageSrc[index]}
-        srcSet={imageSrcSet[index]}
-        alt="image du projet"
-      />
-      <i onClick={nextImage} className="fa-solid chevron-right">
-        &#xf054;
-      </i>
-      <i onClick={prevImage} className="fa-sharp fa-solid chevron-left">
-        &#xf053;
-      </i>
+      <div className="modal_image-container">
+        <i onClick={prevImage} className="fa-sharp fa-solid chevron-left">
+          &#xf053;
+        </i>
+        <img
+          className="modal_image"
+          src={imageSrc[index]}
+          srcSet={imageSrcSet[index]}
+          alt="image du projet"
+        />
+        <i onClick={nextImage} className="fa-solid chevron-right">
+          &#xf054;
+        </i>
+      </div>
     </>
   );
 }

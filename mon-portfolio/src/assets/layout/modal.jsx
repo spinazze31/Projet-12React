@@ -7,11 +7,11 @@ function Modal({ onSuccess, id }) {
   console.log(id);
 
   const skillsList = project.skills.map((skills) => (
-    <li key={skills}>{skills} </li>
+    <li key={skills}>{skills}</li>
   ));
 
   const presentationList = project.content.map((content) => (
-    <li key={content}>{content} </li>
+    <li key={content}>{content}</li>
   ));
 
   const [modalContent, setModalContent] = useState(
@@ -47,9 +47,9 @@ function Modal({ onSuccess, id }) {
           </i>
         </div>
         <h2 className="project_card-title">{project.title} </h2>
-        <div className="modal_image-container">
-          <Carousel pictures={project.pictures} />
-        </div>
+
+        <Carousel pictures={project.pictures} />
+
         <div className="modal_buttons-container">
           <button
             data-name="presentation"
@@ -75,6 +75,11 @@ function Modal({ onSuccess, id }) {
           </button>
         </div>
         {modalContent}
+        <div className="modale_link-container">
+          <a href={project.link} target="_blank">
+            <button className="modale_link">Lien GitHub</button>
+          </a>
+        </div>
       </div>
     </>
   );

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "0",
+    "src": "src/assets/logos/GitHub.png",
+    "alt": "Logo de GitHub",
+    "title": "GitHub"
+  },
+  {
+    "id": "1",
+    "src": "src/assets/logos/JavaScript.png",
+    "alt": "Logo de JavaScript",
+    "title": "JavaScript"
+  },
+  {
+    "id": "2",
+    "src": "src/assets/logos/JSON.png",
+    "alt": "Logo du format JSON",
+    "title": "JSON"
+  },
+  {
+    "id": "3",
+    "src": "src/assets/logos/Postman.png",
+    "alt": "Logo de Postman",
+    "title": "Postman"
+  },
+  {
+    "id": "4",
+    "src": "src/assets/logos/React.png",
+    "alt": "Logo de React",
+    "title": "React"
+  },
+  {
+    "id": "5",
+    "src": "src/assets/logos/Redux.png",
+    "alt": "Logo de Redux Toolkit",
+    "title": "Redux Toolkit"
+  },
+  {
+    "id": "6",
+    "src": "src/assets/logos/Sass.png",
+    "alt": "Logo de Sass",
+    "title": "Sass"
+  },
+  {
+    "id": "7",
+    "src": "src/assets/logos/Visual_Studio_Code.png",
+    "alt": "Logo de Visual Studio Code",
+    "title": "VsCode"
+  },
+  {
+    "id": "8",
+    "src": "src/assets/logos/Vite.js.png",
+    "alt": "Logo de Vite",
+    "title": "Vite.js"
+  }
+]
