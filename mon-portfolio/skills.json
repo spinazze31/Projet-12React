@@ -1,55 +1,55 @@
 [
   {
     "id": "0",
-    "src": "public/logos/GitHub.png",
+    "src": "/Projet-12React/logos/GitHub.png",
     "alt": "Logo de GitHub",
     "title": "GitHub"
   },
   {
     "id": "1",
-    "src": "public/logos/JavaScript.png",
+    "src": "/Projet-12React/logos/JavaScript.png",
     "alt": "Logo de JavaScript",
     "title": "JavaScript"
   },
   {
     "id": "2",
-    "src": "public/logos/JSON.png",
+    "src": "/Projet-12React/logos/JSON.png",
     "alt": "Logo du format JSON",
     "title": "JSON"
   },
   {
     "id": "3",
-    "src": "public/logos/Postman.png",
+    "src": "/Projet-12React/logos/Postman.png",
     "alt": "Logo de Postman",
     "title": "Postman"
   },
   {
     "id": "4",
-    "src": "public/logos/React.png",
+    "src": "/Projet-12React/logos/React.png",
     "alt": "Logo de React",
     "title": "React"
   },
   {
     "id": "5",
-    "src": "public/logos/Redux.png",
+    "src": "/Projet-12React/logos/Redux.png",
     "alt": "Logo de Redux Toolkit",
     "title": "Redux Toolkit"
   },
   {
     "id": "6",
-    "src": "public/logos/Sass.png",
+    "src": "/Projet-12React/logos/Sass.png",
     "alt": "Logo de Sass",
     "title": "Sass"
   },
   {
     "id": "7",
-    "src": "public/logos/Visual_Studio_Code.png",
+    "src": "/Projet-12React/logos/Visual_Studio_Code.png",
     "alt": "Logo de Visual Studio Code",
     "title": "VsCode"
   },
   {
     "id": "8",
-    "src": "public/logos/Vite.js.png",
+    "src": "/Projet-12React/logos/Vite.js.png",
     "alt": "Logo de Vite",
     "title": "Vite.js"
   }
