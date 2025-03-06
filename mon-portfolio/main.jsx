@@ -7,7 +7,7 @@ import "../mon-portfolio/styles.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Router>
+    <Router basename="/Projet-12React/">
       <Url />
     </Router>
   </StrictMode>

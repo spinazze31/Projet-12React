@@ -5,7 +5,7 @@ function Url() {
   return (
     <>
       <Routes>
-        <Route path="/Projet-12React/" element={<Home />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </>
   );
