@@ -2,6 +2,7 @@ import Presentation from "../composants/presentation";
 import Header from "../layout/header";
 import Projects from "../composants/projects";
 import Skills from "../composants/skills";
+import Footer from "../layout/footer";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Presentation />
       <Projects />
       <Skills />
+      <Footer />
     </>
   );
 }

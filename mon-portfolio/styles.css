@@ -291,6 +291,36 @@ button {
   height: 60px;
 }
 
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: var(--background-color);
+  color: var(--text--color);
+}
+
+.footer_txt {
+  width: 60%;
+}
+
+.footer_link {
+  display: flex;
+  border: var(--border-color);
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+  transition: transform ease 200ms;
+}
+
+.footer_link:hover {
+  transform: scale(1.2);
+}
+
 @media (max-width: 1024px) {
   .presentation_txt {
     left: 15%;
