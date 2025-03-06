@@ -6,7 +6,11 @@ function Presentation() {
       <section>
         <h2 id="presentation">Présentation</h2>
         <div className="presentation_container">
-          <img className="presentation_img" src={backgroundImage} />
+          <img
+            className="presentation_img"
+            src={backgroundImage}
+            alt="Image de fond avec des fleurs"
+          />
           <p className="presentation_txt">
             Ayant été fleuriste pendant 7 ans et étant passionnée d'informatique
             et d'art créatif, j'ai choisi de me réorienter vers le métier de

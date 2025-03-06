@@ -41,7 +41,7 @@
   {
     "id": "1",
     "title": "Projet Portfolio Sophie Bluel",
-    "cover": "src/assets/Img/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_1.jpg",
+    "cover": "src/assets/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_1.jpg",
     "pictures": [
       {
         "src": "src/assets/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_1.jpg",
@@ -82,7 +82,7 @@
   {
     "id": "2",
     "title": "Projet Kasa",
-    "cover": "src/assets/Img/kasa/image_projet_kasa_1.jpg",
+    "cover": "src/assets/Img/img_600w/kasa/image_projet_kasa_1.jpg",
     "pictures": [
       {
         "src": "src/assets/Img/img_600w/kasa/image_projet_kasa_1.jpg",
@@ -134,12 +134,28 @@
   {
     "id": "3",
     "title": "Projet ArgentBank",
-    "cover": "src/assets/Img/argentbank/image_projet_argentbank_1.jpg",
+    "cover": "src/assets/Img/img_600w/argentbank/image_projet_argentbank_1.jpg",
     "pictures": [
-      "src/assets/Img/argentbank/image_projet_argentbank_1.jpg",
-      "src/assets/Img/argentbank/image_projet_argentbank_2.jpg",
-      "src/assets/Img/argentbank/image_projet_argentbank_3.jpg",
-      "src/assets/Img/argentbank/image_projet_argentbank_4.jpg"
+      {
+        "src": "src/assets/Img/img_600w/argentbank/image_projet_argentbank_1.jpg",
+        "srcSet": "src/assets/Img/img_200w/argentbank/image_projet_argentbank_1.jpg 200w, src/assets/Img/img_400w/argentbank/image_projet_argentbank_1.jpg 400w, src/assets/Img/img_600w/argentbank/image_projet_argentbank_1.jpg 600w",
+        "sizes": "(max-width: 600px) 100vw"
+      },
+      {
+        "src": "src/assets/Img/img_600w/argentbank/image_projet_argentbank_2.jpg",
+        "srcSet": "src/assets/Img/img_200w/argentbank/image_projet_argentbank_2.jpg 200w, src/assets/Img/img_400w/argentbank/image_projet_argentbank_2.jpg 400w, src/assets/Img/img_600w/argentbank/image_projet_argentbank_2.jpg 600w",
+        "sizes": "(max-width: 600px) 100vw"
+      },
+      {
+        "src": "src/assets/Img/img_600w/argentbank/image_projet_argentbank_3.jpg",
+        "srcSet": "src/assets/Img/img_200w/argentbank/image_projet_argentbank_3.jpg 200w, src/assets/Img/img_400w/argentbank/image_projet_argentbank_3.jpg 400w, src/assets/Img/img_600w/argentbank/image_projet_argentbank_3.jpg 600w",
+        "sizes": "(max-width: 600px) 100vw"
+      },
+      {
+        "src": "src/assets/Img/img_600w/argentbank/image_projet_argentbank_4.jpg",
+        "srcSet": "src/assets/Img/img_200w/argentbank/image_projet_argentbank_4.jpg 200w, src/assets/Img/img_400w/argentbank/image_projet_argentbank_4.jpg 400w, src/assets/Img/img_600w/argentbank/image_projet_argentbank_4.jpg 600w",
+        "sizes": "(max-width: 600px) 100vw"
+      }
     ],
     "description": "Ce projet a pour but de créer le site d'une nouvelle banque en ligne qui souhaite percer dans le secteur bancaire. Le site doit permettre à l'utilisateur de se connecter, d'avoir accès aux données de son profil et de modifier le \"username\". Ce site contient :",
     "content": [
