@@ -1,4 +1,4 @@
-import backgroundImage from "../../../public/Img/image_font_1.jpg";
+import backgroundImage from "../../../public/Img/image_font.jpg";
 
 function Presentation() {
   return (

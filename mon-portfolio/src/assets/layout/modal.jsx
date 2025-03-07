@@ -4,7 +4,6 @@ import Carousel from "../composants/carousel";
 
 function Modal({ onSuccess, id }) {
   const project = Projects.find((project) => project.id === id);
-  console.log(id);
 
   const skillsList = project.skills.map((skills) => (
     <li key={skills}>{skills}</li>
@@ -14,12 +13,17 @@ function Modal({ onSuccess, id }) {
     <li key={content}>{content}</li>
   ));
 
-  const [modalContent, setModalContent] = useState(
-    <div>
-      <p className="modal_presentation">{project.description}</p>
-      <ul className="modal_content">{presentationList} </ul>
-    </div>
-  );
+  const modalPresentation = () => {
+    const modalContentPresentation = (
+      <div>
+        <p className="modal_presentation">{project.description}</p>
+        <ul className="modal_content">{presentationList} </ul>
+      </div>
+    );
+    return modalContentPresentation;
+  };
+
+  const [modalContent, setModalContent] = useState(modalPresentation);
 
   const [activeButton, setActiveButton] = useState("presentation");
 
@@ -27,12 +31,7 @@ function Modal({ onSuccess, id }) {
     let buttonName = e.target.dataset.name;
     setActiveButton(buttonName);
     if (buttonName === "presentation") {
-      setModalContent(
-        <div>
-          <p className="modal_presentation">{project.description}</p>
-          <ul className="modal_content">{presentationList} </ul>
-        </div>
-      );
+      setModalContent(modalPresentation);
     } else
       setModalContent(
         <ul className=" modal_content modal_skills">{skillsList}</ul>
