@@ -1,4 +1,4 @@
-import backgroundImage from "../Img/fond_ecran.jpg";
+import backgroundImage from "../../../public/Img/image_font_1.jpg";
 
 function Presentation() {
   return (

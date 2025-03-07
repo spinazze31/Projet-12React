@@ -8,6 +8,10 @@
   background-color: seashell;
 }
 
+body {
+  margin: 0px;
+}
+
 * {
   font-size: 18px;
   font-family: "DM Sans", sans-serif;
@@ -415,8 +419,8 @@ button {
   }
 
   .presentation_txt {
-    left: 25%;
-    top: 40%;
+    left: 22%;
+    top: 50%;
     width: 58%;
   }
 
@@ -462,9 +466,9 @@ button {
 
   .presentation_txt {
     font-size: 14px;
-    top: 40%;
+    top: 50%;
     left: 0;
-    width: 80%;
+    width: 75%;
     padding-left: 70px;
   }
 
