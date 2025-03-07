@@ -2,26 +2,26 @@
   {
     "id": "0",
     "title": "Projet Ohmyfood",
-    "cover": "src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_1.jpg",
+    "cover": "/Projet-12React/mon-portfolio/src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_1.jpg",
     "pictures": [
       {
-        "src": "src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_1.jpg",
-        "srcSet": "src/assets/Img/img_200w/ohmyfood/image_projet_ohmyfood_1.jpg 200w, src/assets/Img/img_400w/ohmyfood/image_projet_ohmyfood_1.jpg 400w, src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_1.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/ohmyfood/image_projet_ohmyfood_1.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/ohmyfood/image_projet_ohmyfood_1.jpg 200w, /Projet-12React/Img/img_400w/ohmyfood/image_projet_ohmyfood_1.jpg 400w, /Projet-12React/Img/img_600w/ohmyfood/image_projet_ohmyfood_1.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       },
       {
-        "src": "src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_2.jpg",
-        "srcSet": "src/assets/Img/img_200w/ohmyfood/image_projet_ohmyfood_2.jpg 200w, src/assets/Img/img_400w/ohmyfood/image_projet_ohmyfood_2.jpg 400w, src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_2.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/ohmyfood/image_projet_ohmyfood_2.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/ohmyfood/image_projet_ohmyfood_2.jpg 200w, /Projet-12React/Img/img_400w/ohmyfood/image_projet_ohmyfood_2.jpg 400w, /Projet-12React/Img/img_600w/ohmyfood/image_projet_ohmyfood_2.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       },
       {
-        "src": "src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_3.jpg",
-        "srcSet": "src/assets/Img/img_200w/ohmyfood/image_projet_ohmyfood_3.jpg 200w, src/assets/Img/img_400w/ohmyfood/image_projet_ohmyfood_3.jpg 400w, src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_3.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/ohmyfood/image_projet_ohmyfood_3.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/ohmyfood/image_projet_ohmyfood_3.jpg 200w, /Projet-12React/Img/img_400w/ohmyfood/image_projet_ohmyfood_3.jpg 400w, /Projet-12React/Img/img_600w/ohmyfood/image_projet_ohmyfood_3.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       },
       {
-        "src": "src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_4.jpg",
-        "srcSet": "src/assets/Img/img_200w/ohmyfood/image_projet_ohmyfood_4.jpg 200w, src/assets/Img/img_400w/ohmyfood/image_projet_ohmyfood_4.jpg 400w, src/assets/Img/img_600w/ohmyfood/image_projet_ohmyfood_4.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/ohmyfood/image_projet_ohmyfood_4.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/ohmyfood/image_projet_ohmyfood_4.jpg 200w, /Projet-12React/Img/img_400w/ohmyfood/image_projet_ohmyfood_4.jpg 400w, /Projet-12React/Img/img_600w/ohmyfood/image_projet_ohmyfood_4.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       }
     ],
@@ -41,26 +41,26 @@
   {
     "id": "1",
     "title": "Projet Portfolio Sophie Bluel",
-    "cover": "src/assets/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_1.jpg",
+    "cover": "/Projet-12React/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_1.jpg",
     "pictures": [
       {
-        "src": "src/assets/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_1.jpg",
-        "srcSet": "src/assets/Img/img_200w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_1.jpg 200w, src/assets/Img/img_400w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_1.jpg 400w, src/assets/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_1.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_1.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_1.jpg 200w, /Projet-12React/Img/img_400w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_1.jpg 400w, /Projet-12React/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_1.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       },
       {
-        "src": "src/assets/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_2.jpg",
-        "srcSet": "src/assets/Img/img_200w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_2.jpg 200w, src/assets/Img/img_400w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_2.jpg 400w, src/assets/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_2.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_2.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_2.jpg 200w, /Projet-12React/Img/img_400w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_2.jpg 400w, /Projet-12React/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_2.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       },
       {
-        "src": "src/assets/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_3.jpg",
-        "srcSet": "src/assets/Img/img_200w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_3.jpg 200w, src/assets/Img/img_400w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_3.jpg 400w, src/assets/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_3.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_3.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_3.jpg 200w, /Projet-12React/Img/img_400w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_3.jpg 400w, /Projet-12React/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_3.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       },
       {
-        "src": "src/assets/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_4.jpg",
-        "srcSet": "src/assets/Img/img_200w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_4.jpg 200w, src/assets/Img/img_400w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_4.jpg 400w, src/assets/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_4.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_4.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_4.jpg 200w, /Projet-12React/Img/img_400w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_4.jpg 400w, /Projet-12React/Img/img_600w/portfolio_sophie_bluel/image_projet_portfolio_sophie_bluel_4.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       }
     ],
@@ -82,36 +82,36 @@
   {
     "id": "2",
     "title": "Projet Kasa",
-    "cover": "src/assets/Img/img_600w/kasa/image_projet_kasa_1.jpg",
+    "cover": "/Projet-12React/Img/img_600w/kasa/image_projet_kasa_1.jpg",
     "pictures": [
       {
-        "src": "src/assets/Img/img_600w/kasa/image_projet_kasa_1.jpg",
-        "srcSet": "src/assets/Img/img_200w/kasa/image_projet_kasa_1.jpg 200w, src/assets/Img/img_400w/kasa/image_projet_kasa_1.jpg 400w, src/assets/Img/img_600w/kasa/image_projet_kasa_1.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/kasa/image_projet_kasa_1.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/kasa/image_projet_kasa_1.jpg 200w, /Projet-12React/Img/img_400w/kasa/image_projet_kasa_1.jpg 400w, /Projet-12React/Img/img_600w/kasa/image_projet_kasa_1.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       },
       {
-        "src": "src/assets/Img/img_600w/kasa/image_projet_kasa_2.jpg",
-        "srcSet": "src/assets/Img/img_200w/kasa/image_projet_kasa_2.jpg 200w, src/assets/Img/img_400w/kasa/image_projet_kasa_2.jpg 400w, src/assets/Img/img_600w/kasa/image_projet_kasa_2.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/kasa/image_projet_kasa_2.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/kasa/image_projet_kasa_2.jpg 200w, /Projet-12React/Img/img_400w/kasa/image_projet_kasa_2.jpg 400w, /Projet-12React/Img/img_600w/kasa/image_projet_kasa_2.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       },
       {
-        "src": "src/assets/Img/img_600w/kasa/image_projet_kasa_3.jpg",
-        "srcSet": "src/assets/Img/img_200w/kasa/image_projet_kasa_3.jpg 200w, src/assets/Img/img_400w/kasa/image_projet_kasa_3.jpg 400w, src/assets/Img/img_600w/kasa/image_projet_kasa_3.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/kasa/image_projet_kasa_3.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/kasa/image_projet_kasa_3.jpg 200w, /Projet-12React/Img/img_400w/kasa/image_projet_kasa_3.jpg 400w, /Projet-12React/Img/img_600w/kasa/image_projet_kasa_3.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       },
       {
-        "src": "src/assets/Img/img_600w/kasa/image_projet_kasa_4.jpg",
-        "srcSet": "src/assets/Img/img_200w/kasa/image_projet_kasa_4.jpg 200w, src/assets/Img/img_400w/kasa/image_projet_kasa_4.jpg 400w, src/assets/Img/img_600w/kasa/image_projet_kasa_4.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/kasa/image_projet_kasa_4.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/kasa/image_projet_kasa_4.jpg 200w, /Projet-12React/Img/img_400w/kasa/image_projet_kasa_4.jpg 400w, /Projet-12React/Img/img_600w/kasa/image_projet_kasa_4.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       },
       {
-        "src": "src/assets/Img/img_600w/kasa/image_projet_kasa_5.jpg",
-        "srcSet": "src/assets/Img/img_200w/kasa/image_projet_kasa_5.jpg 200w, src/assets/Img/img_400w/kasa/image_projet_kasa_5.jpg 400w, src/assets/Img/img_600w/kasa/image_projet_kasa_5.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/kasa/image_projet_kasa_5.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/kasa/image_projet_kasa_5.jpg 200w, /Projet-12React/Img/img_400w/kasa/image_projet_kasa_5.jpg 400w, /Projet-12React/Img/img_600w/kasa/image_projet_kasa_5.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       },
       {
-        "src": "src/assets/Img/img_600w/kasa/image_projet_kasa_6.jpg",
-        "srcSet": "src/assets/Img/img_200w/kasa/image_projet_kasa_6.jpg 200w, src/assets/Img/img_400w/kasa/image_projet_kasa_6.jpg 400w, src/assets/Img/img_600w/kasa/image_projet_kasa_6.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/kasa/image_projet_kasa_6.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/kasa/image_projet_kasa_6.jpg 200w, /Projet-12React/Img/img_400w/kasa/image_projet_kasa_6.jpg 400w, /Projet-12React/Img/img_600w/kasa/image_projet_kasa_6.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       }
     ],
@@ -134,26 +134,26 @@
   {
     "id": "3",
     "title": "Projet ArgentBank",
-    "cover": "src/assets/Img/img_600w/argentbank/image_projet_argentbank_1.jpg",
+    "cover": "/Projet-12React/Img/img_600w/argentbank/image_projet_argentbank_1.jpg",
     "pictures": [
       {
-        "src": "src/assets/Img/img_600w/argentbank/image_projet_argentbank_1.jpg",
-        "srcSet": "src/assets/Img/img_200w/argentbank/image_projet_argentbank_1.jpg 200w, src/assets/Img/img_400w/argentbank/image_projet_argentbank_1.jpg 400w, src/assets/Img/img_600w/argentbank/image_projet_argentbank_1.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/argentbank/image_projet_argentbank_1.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/argentbank/image_projet_argentbank_1.jpg 200w, /Projet-12React/Img/img_400w/argentbank/image_projet_argentbank_1.jpg 400w, /Projet-12React/Img/img_600w/argentbank/image_projet_argentbank_1.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       },
       {
-        "src": "src/assets/Img/img_600w/argentbank/image_projet_argentbank_2.jpg",
-        "srcSet": "src/assets/Img/img_200w/argentbank/image_projet_argentbank_2.jpg 200w, src/assets/Img/img_400w/argentbank/image_projet_argentbank_2.jpg 400w, src/assets/Img/img_600w/argentbank/image_projet_argentbank_2.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/argentbank/image_projet_argentbank_2.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/argentbank/image_projet_argentbank_2.jpg 200w, /Projet-12React/Img/img_400w/argentbank/image_projet_argentbank_2.jpg 400w, /Projet-12React/Img/img_600w/argentbank/image_projet_argentbank_2.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       },
       {
-        "src": "src/assets/Img/img_600w/argentbank/image_projet_argentbank_3.jpg",
-        "srcSet": "src/assets/Img/img_200w/argentbank/image_projet_argentbank_3.jpg 200w, src/assets/Img/img_400w/argentbank/image_projet_argentbank_3.jpg 400w, src/assets/Img/img_600w/argentbank/image_projet_argentbank_3.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/argentbank/image_projet_argentbank_3.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/argentbank/image_projet_argentbank_3.jpg 200w, /Projet-12React/Img/img_400w/argentbank/image_projet_argentbank_3.jpg 400w, /Projet-12React/Img/img_600w/argentbank/image_projet_argentbank_3.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       },
       {
-        "src": "src/assets/Img/img_600w/argentbank/image_projet_argentbank_4.jpg",
-        "srcSet": "src/assets/Img/img_200w/argentbank/image_projet_argentbank_4.jpg 200w, src/assets/Img/img_400w/argentbank/image_projet_argentbank_4.jpg 400w, src/assets/Img/img_600w/argentbank/image_projet_argentbank_4.jpg 600w",
+        "src": "/Projet-12React/Img/img_600w/argentbank/image_projet_argentbank_4.jpg",
+        "srcSet": "/Projet-12React/Img/img_200w/argentbank/image_projet_argentbank_4.jpg 200w, /Projet-12React/Img/img_400w/argentbank/image_projet_argentbank_4.jpg 400w, /Projet-12React/Img/img_600w/argentbank/image_projet_argentbank_4.jpg 600w",
         "sizes": "(max-width: 600px) 100vw"
       }
     ],
