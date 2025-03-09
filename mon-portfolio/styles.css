@@ -85,7 +85,7 @@ button {
   position: absolute;
   z-index: 1;
   top: 55%;
-  left: 14%;
+  left: 12%;
   transform: translate(-50px, -50px);
   color: var(--text--color);
 }
@@ -341,7 +341,7 @@ button {
 
 @media (max-width: 1024px) {
   .presentation_txt {
-    left: 15%;
+    left: 13%;
   }
 
   .modal {
@@ -434,8 +434,8 @@ button {
   }
 
   .presentation_txt {
-    left: 22%;
-    top: 50%;
+    left: 20%;
+    top: 55%;
     width: 58%;
   }
 
@@ -481,10 +481,10 @@ button {
 
   .presentation_txt {
     font-size: 14px;
-    top: 50%;
+    top: 56%;
     left: 0;
-    width: 75%;
-    padding-left: 70px;
+    width: 70%;
+    padding-left: 90px;
   }
 
   .project_card-title {

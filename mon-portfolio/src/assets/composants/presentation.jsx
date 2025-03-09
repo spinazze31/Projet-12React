@@ -12,10 +12,10 @@ function Presentation() {
             alt="Image de fond avec des fleurs"
           />
           <p className="presentation_txt">
-            Ayant été fleuriste pendant 7 ans et étant passionnée d'informatique
-            et d'art créatif, j'ai choisi de me réorienter vers le métier de
-            développeuse web étant donné que celui-ci me permet d'allier les
-            deux en créant du contenu de A à Z.
+            Fleuriste pendant 7 ans et étant passionnée d'informatique et d'art
+            créatif, j'ai choisi de me réorienter vers le métier de développeuse
+            web étant donné que celui-ci me permet d'allier les deux en créant
+            du contenu de A à Z.
           </p>
         </div>
       </section>
