@@ -90,6 +90,21 @@ button {
   color: var(--text--color);
 }
 
+.formation_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formation_txt {
+  color: var(--text--color);
+  border: var(--border-color);
+  border-radius: 20px;
+  box-shadow: 5px 5px;
+  padding: 20px;
+}
+
 .projects {
   display: flex;
   flex-direction: column;
@@ -397,7 +412,7 @@ button {
     width: 100px;
     height: 200px;
     background-color: white;
-    right: 0;
+    right: -58px;
     z-index: 2;
     margin-right: 58px;
     padding: 0 20px;

@@ -13,6 +13,7 @@ function Header() {
         <h1>Audrey</h1>
         <nav className="nav_bar-links">
           <a href="#presentation">Présentation</a>
+          <a href="#formations">Formations</a>
           <a href="#projets">Projets</a>
           <a href="competences">Compétences</a>
         </nav>
@@ -25,6 +26,11 @@ function Header() {
             <li>
               <a onClick={openMenu} href="#presentation">
                 Présentation
+              </a>
+            </li>
+            <li>
+              <a onClick={openMenu} href="#formations">
+                Formations
               </a>
             </li>
             <li>
