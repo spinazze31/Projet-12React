@@ -15,7 +15,7 @@ function Header() {
           <a href="#presentation">Présentation</a>
           <a href="#formations">Formations</a>
           <a href="#projets">Projets</a>
-          <a href="competences">Compétences</a>
+          <a href="#competences">Compétences</a>
         </nav>
 
         <nav className="phone-nav_bar">
